@@ -1,57 +1,44 @@
 <!DOCTYPE html>
-<!-- WD Lesson 2.6: 
-     How can we create a website?
-     How can we add CSS to a web page? -->
 
-<!-- Resources 
-     https://slickplan.com/blog/types-of-website-structure 
-     https://www.w3schools.com/css/css_website_layout.asp
-     https://www.w3schools.com/css/default.asp 
-     https://www.w3schools.com/css/css_howto.asp
--->
+<!--  -->
 <html>
   <head>
-    <title>WD Lesson 2.6 Practical</title>
+    <title>Japan</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="script.js"></script>
-    <style>
-      /* Challenge 6: Using internal styling,  change the color of the web page.*/
-      body{
-        background-color: lightblue;
-      }
-      /* Further challenges are located in style.css  */
-
-      /* Challenge 12: Create the other pages in the sitemap using index.html as the template. 
-                       Modify the heading in the banner container appropriately to match the topic of the web page.
-                       Modify the image included to match the topic of the web page.
-                       Provide an appropriate paragraph to the main container to match the topic of the web page.
-
-      */
-      
-    </style>
   </head>
   <body>
-    <!-- Challenge 1: Create the navigation bar in support of the sitemap associated with the website. -->
-    <nav>
-   <a href="index.html">homepages</a>
-   <a href="html.html"><html</a>
-   <a href="css.png">css</a>
-   <a href="js.html">js</a>
+    <!-- Navigation links -->
+    <nav class="container" id="nav">
+      <a href="index.html">HOME</a>
+      <a href="geography.html">GEOGRAPHY</a>
+      <a href="culture.html">CULTURE</a>
+      <a href="gallery.html">GALLERY</a>
     </nav>
-    <!-- Challenge 2: Create a banner container with heading of "Web Development".  Give it a class of "banner".-->
-      <div class ="banner"
-        <h1> "Web Development"</h1>
-      </div>
 
-    <div class="main">
-      <!-- Challenge 3: Add the image of webicons.png-->
-       <img src="webicons.png" style="height: 250px;">
-      <!-- Challenge 4: Using inline styling, resize the above image appropriately -->
+       
+    <div class="banner container">
+      <h1> JAPAN </h1>
+    </div>
 
-      <!-- Challenge 5: Write a paragraph describing web development.  Discuss the purpose of HTML, CSS and JavaScript -->
-      <p> Discuss the purpose of HTML, CSS and JavaScript HTML provides the structure and content of a web page.</p>
+    <div class="main container">
+        <div>
+          <p> People first came to Japan about 30,000 years ago. At the time, the main islands were connected to Siberia and Korea by bridges of dry land, so people crossed on foot. The first society, called the Jomon culture, arose about 12,000 years ago. Around the same time, the Ainu people arrived by boat from Siberia.
 
+The Jomon and Ainu survived for thousands of years, hunting, fishing, and gathering plants. In 300 B.C., the Yayoi people came to Honshu Island from Korea and China. They were skilled weavers, tool makers, and farmers who began cultivating rice in flooded paddy fields.
 
+In 660 B.C., Japan's first emperor, Jimmu Tenno, came to power. Emperors controlled Japan until the 12th century A.D., when military rulers, called shoguns, took control and ruled by might.
+        </div>
+      
+        <div>
+          <img src="pic1.jpg" >
+        </div>
+
+        <div>
+          <p> Europeans first arrived in Japan in 1543, bringing guns and Christianity. In 1635, the ruling shogun closed Japan to foreigners and forbade Japanese to travel abroad. This isolation lasted more than 200 years. In 1868, the shoguns were overthrown and emperors returned. This was a time of great change and modernization for Japan.
+
+During World War I (1914-1917), Japan fought on the side of the U.S. But on December 7, 1941, Japan bombed the United States navy fleet at Pearl Harbor in Hawaii and the U.S. entered World War II. From 1941-1945, Japan's military leaders fought against the U.S. and the allied forces. In August 1945, the U.S. dropped atomic bombs on the Japanese cities of Hiroshima and Nagasaki, killing about 115,000 people. Japan surrendered a few days later.
+        </div>
+            
     </div>
 
   </body>

@@ -1,12 +1,28 @@
-nav{
-  padding:5px
+.container{
+  display:flex;
 }
-nav a{
-  color:black;
-  margin:0 10px 0 10px;
-  display:inline-block;
-  width:20%;
+
+.container div{
+  flex:1;
+}
+
+nav{
+  padding:5px;
+  height:60px;
+  background-color: red;
+  color:white;
+  align-items: center;
+  border: 2px solid black;
+}
+#nav a{
+  flex:1;
   text-align:center;
+  font-size:40px;
+  font-weight:bold;
+}
+#nav a:hover{
+  background-color: blue;
+  color:red;
 }
 
 /* Challenge 7: Make the font for all elements Arial */
@@ -17,17 +33,42 @@ body{
 a{
   text-decoration: none;
 }
-/* Challenge 9: Change the bottom border of the hyperlinks in the <nav> element to 2px solid black when the visitor hovers over it */
-nav a{
-  border: 2px solid black;
+.main div{
+  text-align:center;
+  margin: 20px;
+  
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  border-top: black solid 1px;
 }
 /* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
 .banner{
   background-color: blue;
   color: white;
+  justify-content: center;
+  align-items: center;
+  height:200px;
+}
+
+.banner h1{ 
+  font-size:150px;
 }
 /* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
 .main{
   font-size: medium;
 }
-
+.main img{
+  height: 300px;
+}
+.main2 h3{
+  border-left: black solid 2px;
+  border-right: black solid 2px;
+  border-bottom: black solid 2px;
+}
+.main2 div{
+  text-align:center;
+  margin:20px;
+}
+h2{
+  font-size:100px;
+}
